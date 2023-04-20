@@ -1,9 +1,12 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "RPM"
   left:
-    - text: "Home"
+    - text: "Nosotros"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: cerulean
 output_dir: docs
