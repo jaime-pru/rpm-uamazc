@@ -4,9 +4,19 @@ navbar:
   left:
     - text: "Nosotros"
       href: index.html
+    - text: "Investigación"
+      href: investigacion.html
+    - text: "Docencia"
+      href: docencia.html
+    - text: "Cursos"
+      href: cursos.html
+    - text: "Bases de datos"
+      href: db.html
+    - text: "Contacto"
+      href: contacto.html
     - text: "About"
       href: about.html
 output:
   html_document:
-    theme: cerulean
+    theme: sandstone      
 output_dir: docs
